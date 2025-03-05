@@ -12,8 +12,15 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
-
     testImplementation 'io.rest-assured:rest-assured:5.5.1'
+    testImplementation 'io.rest-assured:json-path:5.5.1'
+    testImplementation 'io.rest-assured:xml-path:5.5.1'
+    testImplementation 'io.rest-assured:json-schema-validator:5.5.1'
+    testImplementation 'net.javacrumbs.json-unit:json-unit:4.1.0'
+    testImplementation 'net.javacrumbs.json-unit:json-unit-assertj:4.1.0'
+    // https://mvnrepository.com/artifact/org.hamcrest/hamcrest
+//    testImplementation 'org.hamcrest:hamcrest:3.0'
+
 
 
 }
